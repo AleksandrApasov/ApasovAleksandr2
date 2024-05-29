@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: qwertylol
+    url: jdbc:postgresql://localhost:5432/products
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
